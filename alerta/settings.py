@@ -90,8 +90,8 @@ HMAC_AUTH_CREDENTIALS = [
 
 AUTH_PROXY = False
 AUTH_PROXY_USER_HEADER = 'X-Proxy-User'  # header field containing the authenticated username
-AUTH_PROXY_ROLE_HEADER = 'X-Proxy-Roles'  # comma-separated list of authenticated role names
-AUTH_PROXY_ROLE_SEPARATOR = ','
+AUTH_PROXY_ROLES_HEADER = 'X-Proxy-Roles'  # comma-separated list of authenticated role names
+AUTH_PROXY_ROLES_SEPARATOR = ','
 
 OAUTH2_CLIENT_ID = ''  # OAuth2 client ID and secret
 OAUTH2_CLIENT_SECRET = ''
